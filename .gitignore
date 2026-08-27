@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# env files
+.env*.local
+.env
+.env.development
+.env.production
+
+# Cursor IDE & Spec Kit (speckit) — config locale, ne pas versionner
+.cursor/
+**/.cursor/
+
+# Claude IA
+.claude
+**/.claude/
+.agents/
+CLAUDE.md
