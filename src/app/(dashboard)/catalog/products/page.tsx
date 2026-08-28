@@ -189,7 +189,7 @@ export default function ProductsPage() {
             <Label>Type de produit</Label>
             <Select 
               value={formData.product_type} 
-              onValueChange={(value) => setFormData({ ...formData, product_type: value })}
+              onValueChange={(value) => setFormData({ ...formData, product_type: value ?? formData.product_type })}
             >
               <SelectTrigger>
                 <SelectValue placeholder="Sélectionner..." />
